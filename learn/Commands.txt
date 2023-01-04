@@ -1,0 +1,15 @@
+# Simple
+
+docker run -p 3000:3000 todo:1.0 
+
+# Optimized
+
+docker run -p 3000:3000 todo:1.0 
+
+
+# With NodeMonitor
+
+docker run -p 3000:3000 -v $(pwd)/src:/app/src todo:1.0 
+
+docker run -p 3000:3000 -v $(pwd)/src:/app/src todo:1.0 dev
+
